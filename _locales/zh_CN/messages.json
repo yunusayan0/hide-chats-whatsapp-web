@@ -1,0 +1,17 @@
+{
+  "extensionName": { "message": "Hide Chats for WhatsApp Web" },
+  "extensionDescription": { "message": "通过在几秒钟内模糊消息、姓名、个人资料图片和媒体，提供 WhatsApp Web 上的全面隐私。" },
+  "headerTitle": { "message": "隐私过滤器" },
+  "masterTitle": { "message": "主开关" },
+  "masterSubtitle": { "message": "开启/关闭所有过滤器" },
+  "blurProfileTitle": { "message": "个人资料图片" },
+  "blurProfileSubtitle": { "message": "个人和群组头像" },
+  "blurNamesTitle": { "message": "联系人姓名" },
+  "blurNamesSubtitle": { "message": "侧边栏和标题" },
+  "blurLastMsgTitle": { "message": "最后一条消息" },
+  "blurLastMsgSubtitle": { "message": "列表中的消息预览" },
+  "blurMessagesTitle": { "message": "聊天消息" },
+  "blurMessagesSubtitle": { "message": "接收和发送的文本" },
+  "blurMediaTitle": { "message": "媒体内容" },
+  "blurMediaSubtitle": { "message": "图片、视频和贴纸" }
+}

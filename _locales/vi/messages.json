@@ -1,0 +1,17 @@
+{
+  "extensionName": { "message": "Hide Chats for WhatsApp Web" },
+  "extensionDescription": { "message": "Cung cấp quyền riêng tư tuyệt đối trên WhatsApp Web bằng cách làm mờ tin nhắn, tên, ảnh đại diện và phương tiện trong vài giây." },
+  "headerTitle": { "message": "Bộ lọc Quyền riêng tư" },
+  "masterTitle": { "message": "Lá chắn Chính" },
+  "masterSubtitle": { "message": "Bật/tắt tất cả các bộ lọc" },
+  "blurProfileTitle": { "message": "Ảnh đại diện" },
+  "blurProfileSubtitle": { "message": "Ảnh đại diện cá nhân và nhóm" },
+  "blurNamesTitle": { "message": "Tên liên lạc" },
+  "blurNamesSubtitle": { "message": "Thanh bên và tiêu đề" },
+  "blurLastMsgTitle": { "message": "Tin nhắn Cuối" },
+  "blurLastMsgSubtitle": { "message": "Xem trước tin nhắn trong danh sách" },
+  "blurMessagesTitle": { "message": "Tin nhắn Chat" },
+  "blurMessagesSubtitle": { "message": "Văn bản đến và đi" },
+  "blurMediaTitle": { "message": "Nội dung Phương tiện" },
+  "blurMediaSubtitle": { "message": "Hình ảnh, video và nhãn dán" }
+}

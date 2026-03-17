@@ -1,0 +1,17 @@
+{
+  "extensionName": { "message": "Hide Chats for WhatsApp Web" },
+  "extensionDescription": { "message": "Memberikan privasi total di WhatsApp Web dengan memburamkan pesan, nama, foto profil, dan media dalam hitungan detik." },
+  "headerTitle": { "message": "Filter Privasi" },
+  "masterTitle": { "message": "Perisai Utama" },
+  "masterSubtitle": { "message": "Aktifkan/nonaktifkan semua filter" },
+  "blurProfileTitle": { "message": "Foto Profil" },
+  "blurProfileSubtitle": { "message": "Avatar orang dan grup" },
+  "blurNamesTitle": { "message": "Nama Kontak" },
+  "blurNamesSubtitle": { "message": "Bilah sisi dan header" },
+  "blurLastMsgTitle": { "message": "Pesan Terakhir" },
+  "blurLastMsgSubtitle": { "message": "Pratinjau pesan dalam daftar" },
+  "blurMessagesTitle": { "message": "Pesan Obrolan" },
+  "blurMessagesSubtitle": { "message": "Teks masuk dan keluar" },
+  "blurMediaTitle": { "message": "Konten Media" },
+  "blurMediaSubtitle": { "message": "Gambar, video, dan stiker" }
+}

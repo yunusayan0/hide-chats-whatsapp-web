@@ -1,0 +1,17 @@
+{
+  "extensionName": { "message": "Hide Chats for WhatsApp Web" },
+  "extensionDescription": { "message": "Biedt totale privacy op WhatsApp Web door berichten, namen, profielfoto's en media binnen enkele seconden te vervagen." },
+  "headerTitle": { "message": "Privacyfilters" },
+  "masterTitle": { "message": "Hoofdschild" },
+  "masterSubtitle": { "message": "Alle filters in-/uitschakelen" },
+  "blurProfileTitle": { "message": "Profielfoto's" },
+  "blurProfileSubtitle": { "message": "Avatars van personen en groepen" },
+  "blurNamesTitle": { "message": "Contactnamen" },
+  "blurNamesSubtitle": { "message": "Zijbalk en headers" },
+  "blurLastMsgTitle": { "message": "Laatste Bericht" },
+  "blurLastMsgSubtitle": { "message": "Berichtvoorbeeld in lijst" },
+  "blurMessagesTitle": { "message": "Chatberichten" },
+  "blurMessagesSubtitle": { "message": "Inkomende en uitgaande tekst" },
+  "blurMediaTitle": { "message": "Media-inhoud" },
+  "blurMediaSubtitle": { "message": "Afbeeldingen, video's en stickers" }
+}

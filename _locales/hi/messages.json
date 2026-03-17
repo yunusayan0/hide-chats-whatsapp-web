@@ -1,0 +1,17 @@
+{
+  "extensionName": { "message": "Hide Chats for WhatsApp Web" },
+  "extensionDescription": { "message": "WhatsApp Web पर संदेशों, नामों, प्रोफ़ाइल चित्रों और मीडिया को सेकंडों में धुंधला करके पूर्ण गोपनीयता प्रदान करता है।" },
+  "headerTitle": { "message": "गोपनीयता फ़िल्टर" },
+  "masterTitle": { "message": "मुख्य ढाल" },
+  "masterSubtitle": { "message": "सभी फ़िल्टर टॉगल करें" },
+  "blurProfileTitle": { "message": "प्रोफ़ाइल चित्र" },
+  "blurProfileSubtitle": { "message": "व्यक्ति और समूह अवतार" },
+  "blurNamesTitle": { "message": "संपर्क नाम" },
+  "blurNamesSubtitle": { "message": "साइडबार और हेडर" },
+  "blurLastMsgTitle": { "message": "अंतिम संदेश" },
+  "blurLastMsgSubtitle": { "message": "सूची में संदेश पूर्वावलोकन" },
+  "blurMessagesTitle": { "message": "चैट संदेश" },
+  "blurMessagesSubtitle": { "message": "आने वाले और जाने वाले टेक्स्ट" },
+  "blurMediaTitle": { "message": "मीडिया सामग्री" },
+  "blurMediaSubtitle": { "message": "चित्र, वीडियो और स्टिकर" }
+}

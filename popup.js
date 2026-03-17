@@ -16,7 +16,7 @@ const CLASS_MAP = {
   blurMedia: 'privacy-blur-media'
 };
 
-let currentLang = 'tr';
+let currentLang = 'en';
 
 /**
  * Yerel dil dosyalarını yükler ve UI'yi günceller
@@ -28,6 +28,8 @@ async function applyLanguage(lang) {
   try {
     // _locales klasöründen ilgili dil dosyasını çek / Fetch the language file from _locales
     const response = await fetch(chrome.runtime.getURL(`_locales/${lang}/messages.json`));
+    if (!response.ok) throw new Error("Language file not found");
+    
     const data = await response.json();
     
     // Her bir ID için mesajı uygula / Apply the message for each ID
@@ -40,20 +42,31 @@ async function applyLanguage(lang) {
       if (el) el.textContent = data[key].message;
     });
 
-    // Buton aktiflik durumu / Toggle active button state
-    document.getElementById('langTR').classList.toggle('active', lang === 'tr');
-    document.getElementById('langEN').classList.toggle('active', lang === 'en');
+    // Seçim kutusunu güncelle / Update the select box
+    const langSelect = document.getElementById('langSelect');
+    if (langSelect) langSelect.value = lang;
     
   } catch (error) {
     console.error("Language load error:", error);
+    // Hata durumunda İngilizceye dön / Fallback to English
+    if (lang !== 'en') applyLanguage('en');
   }
 }
 
 // UI öğelerini yerel depolama verileriyle senkronize et / Sync UI checkboxes with saved storage
 chrome.storage.local.get(STORAGE_KEYS, (data) => {
-  // Kayıtlı dil yoksa tarayıcı dilini kontrol et / Check browser language if no saved lang
-  const browserLang = chrome.i18n.getUILanguage().split('-')[0];
-  const targetLang = data.language || (['tr', 'en'].includes(browserLang) ? browserLang : 'en');
+  const browserLang = chrome.i18n.getUILanguage().replace('-', '_').split('_')[0];
+  const supportedLangs = ['tr', 'en', 'es', 'de', 'fr', 'it', 'pt', 'ru', 'ar', 'hi', 'zh_CN', 'zh_TW', 'ja', 'ko', 'nl', 'pl', 'sv', 'sk', 'uk', 'id', 'th', 'vi'];
+  
+  // zh_CN ve zh_TW gibi özel durumlar için tam kodu kontrol et / Check full code for special cases like zh_CN/TW
+  const fullBrowserLang = chrome.i18n.getUILanguage().replace('-', '_');
+  let targetLang = data.language;
+  
+  if (!targetLang) {
+    if (supportedLangs.includes(fullBrowserLang)) targetLang = fullBrowserLang;
+    else if (supportedLangs.includes(browserLang)) targetLang = browserLang;
+    else targetLang = 'en';
+  }
   
   applyLanguage(targetLang);
 
@@ -115,13 +128,8 @@ STORAGE_KEYS.forEach(key => {
   el?.addEventListener('change', saveSettings);
 });
 
-// Dil butonları / Language buttons
-document.getElementById('langTR').addEventListener('click', () => {
-  applyLanguage('tr');
-  saveSettings();
-});
-
-document.getElementById('langEN').addEventListener('click', () => {
-  applyLanguage('en');
+// Dil seçim kutusu olay dinleyicisi / Language selector event listener
+document.getElementById('langSelect')?.addEventListener('change', (e) => {
+  applyLanguage(e.target.value);
   saveSettings();
 });

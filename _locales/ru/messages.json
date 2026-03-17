@@ -1,0 +1,17 @@
+{
+  "extensionName": { "message": "Hide Chats for WhatsApp Web" },
+  "extensionDescription": { "message": "Обеспечивает полную конфиденциальность в WhatsApp Web, размывая сообщения, имена, фото профиля и медиафайлы." },
+  "headerTitle": { "message": "Фильтры конфиденциальности" },
+  "masterTitle": { "message": "Главный щит" },
+  "masterSubtitle": { "message": "Переключить все фильтры" },
+  "blurProfileTitle": { "message": "Фото профиля" },
+  "blurProfileSubtitle": { "message": "Аватары людей и групп" },
+  "blurNamesTitle": { "message": "Имена контактов" },
+  "blurNamesSubtitle": { "message": "Боковая панель и заголовки" },
+  "blurLastMsgTitle": { "message": "Последнее сообщение" },
+  "blurLastMsgSubtitle": { "message": "Предпросмотр сообщения в списке" },
+  "blurMessagesTitle": { "message": "Сообщения чата" },
+  "blurMessagesSubtitle": { "message": "Входящий и исходящий текст" },
+  "blurMediaTitle": { "message": "Медиаконтент" },
+  "blurMediaSubtitle": { "message": "Изображения, видео и стикеры" }
+}

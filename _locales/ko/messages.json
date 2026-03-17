@@ -1,0 +1,17 @@
+{
+  "extensionName": { "message": "Hide Chats for WhatsApp Web" },
+  "extensionDescription": { "message": "메시지, 이름, 프로필 사진 및 미디어를 몇 초 만에 흐리게 하여 WhatsApp Web에서 완전한 개인 정보를 제공합니다." },
+  "headerTitle": { "message": "개인 정보 보호 필터" },
+  "masterTitle": { "message": "마스터 실드" },
+  "masterSubtitle": { "message": "모든 필터 토글" },
+  "blurProfileTitle": { "message": "프로필 사진" },
+  "blurProfileSubtitle": { "message": "개인 및 그룹 아바타" },
+  "blurNamesTitle": { "message": "연락처 이름" },
+  "blurNamesSubtitle": { "message": "사이드바 및 헤더" },
+  "blurLastMsgTitle": { "message": "마지막 메시지" },
+  "blurLastMsgSubtitle": { "message": "목록의 메시지 미리보기" },
+  "blurMessagesTitle": { "message": "채팅 메시지" },
+  "blurMessagesSubtitle": { "message": "수신 및 발신 텍스트" },
+  "blurMediaTitle": { "message": "미디어 콘텐츠" },
+  "blurMediaSubtitle": { "message": "이미지, 비디오 및 스티커" }
+}

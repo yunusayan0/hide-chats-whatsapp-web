@@ -1,0 +1,17 @@
+{
+  "extensionName": { "message": "Hide Chats for WhatsApp Web" },
+  "extensionDescription": { "message": "Забезпечує повну конфіденційність у WhatsApp Web, розмиваючи повідомлення, імена, фото профілю та медіафайли за лічені секунди." },
+  "headerTitle": { "message": "Фільтри конфіденційності" },
+  "masterTitle": { "message": "Головний щит" },
+  "masterSubtitle": { "message": "Перемкнути всі фільтри" },
+  "blurProfileTitle": { "message": "Фото профілю" },
+  "blurProfileSubtitle": { "message": "Аватари людей та груп" },
+  "blurNamesTitle": { "message": "Імена контактів" },
+  "blurNamesSubtitle": { "message": "Бічна панель та заголовки" },
+  "blurLastMsgTitle": { "message": "Останнє повідомлення" },
+  "blurLastMsgSubtitle": { "message": "Попередній перегляд повідомлення" },
+  "blurMessagesTitle": { "message": "Повідомлення чату" },
+  "blurMessagesSubtitle": { "message": "Вхідний та вихідний текст" },
+  "blurMediaTitle": { "message": "Медіаконтент" },
+  "blurMediaSubtitle": { "message": "Зображення, відео та стікери" }
+}

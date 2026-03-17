@@ -1,0 +1,17 @@
+{
+  "extensionName": { "message": "Hide Chats for WhatsApp Web" },
+  "extensionDescription": { "message": "Ger total integritet på WhatsApp Web genom att sudda ut meddelanden, namn, profilbilder och media på några sekunder." },
+  "headerTitle": { "message": "Integritetsfilter" },
+  "masterTitle": { "message": "Huvudsköld" },
+  "masterSubtitle": { "message": "Slå på/av alla filter" },
+  "blurProfileTitle": { "message": "Profilbilder" },
+  "blurProfileSubtitle": { "message": "Avatarer för personer och grupper" },
+  "blurNamesTitle": { "message": "Kontaktnamn" },
+  "blurNamesSubtitle": { "message": "Sidofält och rubriker" },
+  "blurLastMsgTitle": { "message": "Senaste meddelande" },
+  "blurLastMsgSubtitle": { "message": "Meddelandeförhandsvisning i listan" },
+  "blurMessagesTitle": { "message": "Chattmeddelanden" },
+  "blurMessagesSubtitle": { "message": "Inkommande och utgående text" },
+  "blurMediaTitle": { "message": "Medieinnehåll" },
+  "blurMediaSubtitle": { "message": "Bilder, videor och stickers" }
+}

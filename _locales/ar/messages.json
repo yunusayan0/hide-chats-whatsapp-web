@@ -1,0 +1,17 @@
+{
+  "extensionName": { "message": "Hide Chats for WhatsApp Web" },
+  "extensionDescription": { "message": "يوفر خصوصية طبية على WhatsApp Web عن طريق تعتيم الرسائل والأسماء وصور الملف الشخصي والوسائط في ثوانٍ." },
+  "headerTitle": { "message": "فلاتر الخصوصية" },
+  "masterTitle": { "message": "الدرع الرئيسي" },
+  "masterSubtitle": { "message": "تبديل جميع الفلاتر" },
+  "blurProfileTitle": { "message": "صور الملف الشخصي" },
+  "blurProfileSubtitle": { "message": "صور الأشخاص والمجموعات" },
+  "blurNamesTitle": { "message": "أسماء جهات الاتصال" },
+  "blurNamesSubtitle": { "message": "شريط جانبي وعناوين" },
+  "blurLastMsgTitle": { "message": "آخر رسالة" },
+  "blurLastMsgSubtitle": { "message": "معاينة الرسالة في القائمة" },
+  "blurMessagesTitle": { "message": "رسائل الدردشة" },
+  "blurMessagesSubtitle": { "message": "النص الوارد والصادر" },
+  "blurMediaTitle": { "message": "محتوى الوسائط" },
+  "blurMediaSubtitle": { "message": "الصور ومقاطع الفيديو والملصقات" }
+}

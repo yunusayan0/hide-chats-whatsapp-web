@@ -1,0 +1,17 @@
+{
+  "extensionName": { "message": "Hide Chats for WhatsApp Web" },
+  "extensionDescription": { "message": "メッセージ、名前、プロフィール写真、メディアを数秒でぼかすことにより、WhatsApp Web で完全なプライバシーを提供します。" },
+  "headerTitle": { "message": "プライバシーフィルター" },
+  "masterTitle": { "message": "マスターシールド" },
+  "masterSubtitle": { "message": "すべてのフィルターを切り替える" },
+  "blurProfileTitle": { "message": "プロフィール写真" },
+  "blurProfileSubtitle": { "message": "個人およびグループのアバター" },
+  "blurNamesTitle": { "message": "連絡先名" },
+  "blurNamesSubtitle": { "message": "サイドバーとヘッダー" },
+  "blurLastMsgTitle": { "message": "最後のメッセージ" },
+  "blurLastMsgSubtitle": { "message": "リスト内のメッセージプレビュー" },
+  "blurMessagesTitle": { "message": "チャットメッセージ" },
+  "blurMessagesSubtitle": { "message": "送受信テキスト" },
+  "blurMediaTitle": { "message": "メディアコンテンツ" },
+  "blurMediaSubtitle": { "message": "画像、ビデオ、ステッカー" }
+}

@@ -1,0 +1,17 @@
+{
+  "extensionName": { "message": "Hide Chats for WhatsApp Web" },
+  "extensionDescription": { "message": "Zabezpečuje úplné súkromie na WhatsApp Web rozmazaním správ, mien, profilových fotiek a médií v priebehu niekoľkých sekúnd." },
+  "headerTitle": { "message": "Filtre súkromia" },
+  "masterTitle": { "message": "Hlavný štít" },
+  "masterSubtitle": { "message": "Prepnúť všetky filtre" },
+  "blurProfileTitle": { "message": "Profilové fotky" },
+  "blurProfileSubtitle": { "message": "Avatary osôb a skupín" },
+  "blurNamesTitle": { "message": "Mená kontaktov" },
+  "blurNamesSubtitle": { "message": "Bočný panel a hlavičky" },
+  "blurLastMsgTitle": { "message": "Posledná správa" },
+  "blurLastMsgSubtitle": { "message": "Náhľad správy v zozname" },
+  "blurMessagesTitle": { "message": "Správy chatu" },
+  "blurMessagesSubtitle": { "message": "Prichádzajúci a odchádzajúci text" },
+  "blurMediaTitle": { "message": "Mediálny obsah" },
+  "blurMediaSubtitle": { "message": "Obrázky, videá a nálepky" }
+}

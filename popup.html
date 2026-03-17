@@ -50,23 +50,22 @@
     /* Dil Seçeneği / Language Switcher */
     .lang-switcher {
       display: flex;
-      gap: 5px;
+      align-items: center;
     }
 
-    .lang-btn {
-      background: none;
+    .lang-select {
+      background: var(--wa-bg-hover);
       border: 1px solid var(--wa-border);
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 10px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 11px;
       cursor: pointer;
-      color: var(--wa-text-muted);
+      color: var(--wa-text-main);
+      outline: none;
       transition: all 0.2s;
     }
 
-    .lang-btn.active {
-      background-color: var(--wa-primary);
-      color: white;
+    .lang-select:focus {
       border-color: var(--wa-primary);
     }
 
@@ -188,8 +187,30 @@
       <h2 id="headerTitle">Gizlilik Filtreleri</h2>
     </div>
     <div class="lang-switcher">
-      <button class="lang-btn" id="langTR">TR</button>
-      <button class="lang-btn" id="langEN">EN</button>
+      <select class="lang-select" id="langSelect">
+        <option value="tr">Türkçe</option>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="de">Deutsch</option>
+        <option value="fr">Français</option>
+        <option value="it">Italiano</option>
+        <option value="pt">Português</option>
+        <option value="ru">Русский</option>
+        <option value="ar">العربية</option>
+        <option value="hi">हिन्दी</option>
+        <option value="zh_CN">简体中文</option>
+        <option value="zh_TW">繁體中文</option>
+        <option value="ja">日本語</option>
+        <option value="ko">한국어</option>
+        <option value="nl">Nederlands</option>
+        <option value="pl">Polski</option>
+        <option value="sv">Svenska</option>
+        <option value="sk">Slovenčina</option>
+        <option value="uk">Українська</option>
+        <option value="id">Bahasa Indonesia</option>
+        <option value="th">ไทย</option>
+        <option value="vi">Tiếng Việt</option>
+      </select>
     </div>
   </div>
 
