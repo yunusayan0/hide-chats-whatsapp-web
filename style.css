@@ -1,0 +1,114 @@
+/* WhatsApp Privacy Mode - Temel Tasarım (Core Styling) */
+
+[class*="privacy-blur-"],
+[class*="privacy-blur-"] * {
+    transition: filter 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* 1. Profil Fotoğrafları (Avatars / Profile Pics) */
+body.privacy-blur-profile #pane-side img,
+body.privacy-blur-profile header img,
+body.privacy-blur-profile [data-icon="default-user"] svg,
+body.privacy-blur-profile [data-icon="default-group"] svg {
+    filter: blur(18px) !important;
+}
+
+body.privacy-blur-profile #pane-side img:hover,
+body.privacy-blur-profile header img:hover,
+body.privacy-blur-profile [data-icon="default-user"] svg:hover,
+body.privacy-blur-profile [data-icon="default-group"] svg:hover {
+    filter: blur(0px) !important;
+}
+
+/* 2. Kişi İsimleri (Contact Names / Sidebar & Header) */
+body.privacy-blur-names [data-testid="cell-frame-title"],
+body.privacy-blur-names ._ak8o span,
+body.privacy-blur-names [data-testid="conversation-info-header"] span,
+body.privacy-blur-names [data-testid="chat-list-search-results"] span[title],
+body.privacy-blur-names [data-testid="msg-container"] [data-testid="quoted-title"],
+body.privacy-blur-names [data-testid="msg-container"] span[dir="auto"][aria-label],
+body.privacy-blur-names [data-testid="last-msg-status"] + span > span:first-child,
+body.privacy-blur-names [data-testid="cell-frame-secondary"] span:first-child {
+    filter: blur(14px) !important;
+}
+
+body.privacy-blur-names [data-testid="cell-frame-title"]:hover,
+body.privacy-blur-names ._ak8o span:hover,
+body.privacy-blur-names [data-testid="cell-frame-container"]:hover [data-testid="cell-frame-title"],
+body.privacy-blur-names [data-testid="cell-frame-container"]:hover ._ak8o span,
+body.privacy-blur-names [data-testid="cell-frame-container"]:hover [data-testid="cell-frame-secondary"] span:first-child,
+body.privacy-blur-names header:hover [data-testid="conversation-info-header"] span,
+body.privacy-blur-names [data-testid="msg-container"]:hover [data-testid="quoted-title"] {
+    filter: blur(0px) !important;
+}
+
+/* 3. Son Mesaj Özeti (Last Message Summary / Sidebar) */
+body.privacy-blur-lastmsg [data-testid="cell-frame-secondary"],
+body.privacy-blur-lastmsg ._ak8k,
+body.privacy-blur-lastmsg ._ak8j,
+body.privacy-blur-lastmsg [data-testid="last-msg-status"] + span {
+    filter: blur(15px) !important;
+}
+
+body.privacy-blur-lastmsg [data-testid="cell-frame-secondary"]:hover,
+body.privacy-blur-lastmsg ._ak8k:hover,
+body.privacy-blur-lastmsg ._ak8j:hover,
+body.privacy-blur-lastmsg [data-testid="cell-frame-container"]:hover [data-testid="cell-frame-secondary"],
+body.privacy-blur-lastmsg [data-testid="cell-frame-container"]:hover ._ak8k,
+body.privacy-blur-lastmsg [data-testid="cell-frame-container"]:hover ._ak8j,
+body.privacy-blur-lastmsg [data-testid="cell-frame-container"]:hover [data-testid="last-msg-status"] + span {
+    filter: blur(0px) !important;
+}
+
+/* 4. Sohbet Mesajları (Chat Messages / Bubbles) */
+body.privacy-blur-messages .message-in .copyable-text,
+body.privacy-blur-messages .message-out .copyable-text,
+body.privacy-blur-messages div[data-pre-plain-text],
+body.privacy-blur-messages [data-testid="selectable-text"] {
+    filter: blur(18px) !important;
+}
+
+body.privacy-blur-messages .message-in:hover .copyable-text,
+body.privacy-blur-messages .message-out:hover .copyable-text,
+body.privacy-blur-messages div[data-pre-plain-text]:hover,
+body.privacy-blur-messages [data-testid="selectable-text"]:hover {
+    filter: blur(0px) !important;
+}
+
+/* 5. Medya İçerikleri (Media Content / Images, Videos, Voice) */
+body.privacy-blur-media .message-in img,
+body.privacy-blur-media .message-out img,
+body.privacy-blur-media .message-in video,
+body.privacy-blur-media .message-out video,
+body.privacy-blur-media .message-in canvas,
+body.privacy-blur-media .message-out canvas,
+body.privacy-blur-media [data-testid="sticker-container"],
+body.privacy-blur-media [data-testid="image-content"],
+body.privacy-blur-media [data-testid="video-content"],
+body.privacy-blur-media [data-testid="audio-content"],
+body.privacy-blur-media [style*="background-image"],
+body.privacy-blur-media [data-icon="media-play"],
+body.privacy-blur-media [data-icon="audio-play"] {
+    filter: blur(25px) !important;
+}
+
+body.privacy-blur-media .message-in:hover img,
+body.privacy-blur-media .message-out:hover img,
+body.privacy-blur-media .message-in:hover video,
+body.privacy-blur-media .message-out:hover video,
+body.privacy-blur-media .message-in:hover canvas,
+body.privacy-blur-media .message-out:hover canvas,
+body.privacy-blur-media [data-testid="sticker-container"]:hover,
+body.privacy-blur-media [data-testid="image-content"]:hover,
+body.privacy-blur-media [data-testid="video-content"]:hover,
+body.privacy-blur-media [data-testid="audio-content"]:hover,
+body.privacy-blur-media [data-icon="media-play"]:hover,
+body.privacy-blur-media [data-icon="audio-play"]:hover {
+    filter: blur(0px) !important;
+}
+
+/* İstisnalar (Exceptions: Typing Area) */
+footer [data-testid="footer-text-input"],
+footer [data-testid="footer-text-input"] * {
+    filter: none !important;
+}

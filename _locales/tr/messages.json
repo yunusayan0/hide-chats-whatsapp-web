@@ -1,0 +1,47 @@
+{
+  "extensionName": {
+    "message": "Hide Chats for WhatsApp Web"
+  },
+  "extensionDescription": {
+    "message": "WhatsApp Web'de mesajları, isimleri, profil fotoğraflarını ve medyayı saniyeler içinde bulanıklaştırarak tam gizlilik sağlar."
+  },
+  "headerTitle": {
+    "message": "Gizlilik Filtreleri"
+  },
+  "masterTitle": {
+    "message": "Genel Koruma"
+  },
+  "masterSubtitle": {
+    "message": "Tüm filtreleri aç-kapat"
+  },
+  "blurProfileTitle": {
+    "message": "Profil Fotoğrafları"
+  },
+  "blurProfileSubtitle": {
+    "message": "Kişi ve grup avatarları"
+  },
+  "blurNamesTitle": {
+    "message": "Kişi İsimleri"
+  },
+  "blurNamesSubtitle": {
+    "message": "Sohbet listesi ve başlıklar"
+  },
+  "blurLastMsgTitle": {
+    "message": "Son Mesajlar"
+  },
+  "blurLastMsgSubtitle": {
+    "message": "Listede görünen mesaj özeti"
+  },
+  "blurMessagesTitle": {
+    "message": "Sohbet Mesajları"
+  },
+  "blurMessagesSubtitle": {
+    "message": "Gelen ve giden metinler"
+  },
+  "blurMediaTitle": {
+    "message": "Medya İçerikleri"
+  },
+  "blurMediaSubtitle": {
+    "message": "Resim, video ve çıkartmalar"
+  }
+}
